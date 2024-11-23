@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>work6</OriginalElement>
+  <nodes>
+    <node x="119.5" y="279.0">work6.AbstractHandler</node>
+    <node x="119.5" y="60.0">work6.IHandler</node>
+    <node x="341.0" y="157.0">work6.SupportRequest</node>
+    <node x="365.0" y="-14.0">work6.IRequest</node>
+    <node x="-114.0" y="470.0">work6.SupportOperator</node>
+    <node x="316.0" y="470.0">work6.SeniorSupportEngineer</node>
+    <node x="101.0" y="470.0">work6.SupportEngineer</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="work6.AbstractHandler" target="work6.IHandler" relationship="TO_ONE">
+      <point x="47.5" y="-51.0" />
+      <point x="47.5" y="38.5" />
+    </edge>
+    <edge source="work6.SeniorSupportEngineer" target="work6.AbstractHandler" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="431.0" y="425.5" />
+      <point x="214.5" y="425.5" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="work6.SupportEngineer" target="work6.AbstractHandler" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="193.5" y="425.5" />
+      <point x="214.5" y="425.5" />
+      <point x="0.0" y="51.0" />
+    </edge>
+    <edge source="work6.AbstractHandler" target="work6.IHandler" relationship="REALIZATION">
+      <point x="-47.5" y="-51.0" />
+      <point x="-47.5" y="38.5" />
+    </edge>
+    <edge source="work6.SupportRequest" target="work6.IRequest" relationship="REALIZATION">
+      <point x="0.0" y="-51.0" />
+      <point x="0.0" y="27.0" />
+    </edge>
+    <edge source="work6.SupportOperator" target="work6.AbstractHandler" relationship="GENERALIZATION">
+      <point x="0.0" y="-39.0" />
+      <point x="-21.5" y="425.5" />
+      <point x="214.5" y="425.5" />
+      <point x="0.0" y="51.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.0" showDependencies="true" x="216.0" y="295.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
